@@ -1,0 +1,25 @@
+{
+  "name": "my-project",
+  "path": "~/work/my-project",
+  "gate": 85,
+  "gray_low": 70,
+  "max_rounds": 8,
+  "max_minutes": 90,
+  "critic": {
+    "command": ["python", "tools/critic_check.py"],
+    "timeout": 600
+  },
+  "builder": {
+    "command": ["my-agent-cli", "--task-file-stdin"],
+    "timeout": 1800
+  },
+  "reviewer": {
+    "command": ["my-agent-cli", "review"],
+    "timeout": 300
+  },
+  "debate": {
+    "pro":  {"command": ["my-agent-cli", "argue-pro"]},
+    "con":  {"command": ["my-agent-cli", "argue-con"]},
+    "judge": {"command": ["my-agent-cli", "judge"]}
+  }
+}
