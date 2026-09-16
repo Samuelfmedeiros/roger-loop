@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/depend%C3%AAncias-0-22c55e?style=flat-square" alt="Zero dependências">
   <img src="https://img.shields.io/badge/providers-qualquer-0ea5e9?style=flat-square" alt="Agnóstico de provedor">
-  <img src="https://github.com/Samuelfmedeiros/roger-loop/actions/workflows/tests.yml/badge.svg" alt="CI">
 </p>
 
 <p align="center"><strong>Roda seu ciclo crítico → builder → revisor com orçamentos rígidos e zero confiança na própria memória</strong> — um arquivo JSON configura tudo, qualquer agente de linha de comando se encaixa, e nenhum provedor de modelo é embutido.</p>

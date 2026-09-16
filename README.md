@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/dependencies-0-22c55e?style=flat-square" alt="Zero dependencies">
   <img src="https://img.shields.io/badge/providers-any-0ea5e9?style=flat-square" alt="Provider agnostic">
-  <img src="https://github.com/Samuelfmedeiros/roger-loop/actions/workflows/tests.yml/badge.svg" alt="CI">
 </p>
 
 <p align="center"><strong>Runs your critic → builder → reviewer loop with hard budgets and zero trust in its own memory</strong> — one JSON file configures it, any command-line agent plugs in, and no model provider is baked in.</p>
